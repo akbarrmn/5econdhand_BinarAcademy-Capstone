@@ -124,7 +124,7 @@ const tawarSlice = createSlice({
         },
 
         // Fetching Tawar all
-        [fetchTawar.pending]: (state, action) => {  S
+        [fetchTawar.pending]: (state, action) => {
             return { ...state, error: null, }
         },
         [fetchTawar.fulfilled]: (state, action) => {
